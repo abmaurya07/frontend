@@ -5,7 +5,7 @@ type Props = {}
 
 const index = (props: Props) => {
   return (
-    <div style={{display:'flex'}}>
+    <div >
 
         <Header />
 

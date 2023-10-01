@@ -7,8 +7,7 @@ const header = (props: Props) => {
   return (
     <header className="flex items-center justify-between py-4 px-6 bg-gray-100">
       <div className="flex items-center">
-        <Image src={logo} alt="Logo" className="w-12 h-12 mr-2" />
-        <h1 className="text-xl font-bold">Your Logo</h1>
+        <Image src={logo} alt="Logo" className="w-24 h-24 mr-2" />
       </div>
       <div className="flex space-x-4">
         <button className="button">Sign Up</button>
